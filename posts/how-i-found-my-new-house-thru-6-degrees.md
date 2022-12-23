@@ -56,8 +56,6 @@ It’s funny to [quote Steve Jobs](https://www.youtube.com/watch?v=UF8uR6Z6KLc) 
 
 So maybe let's evaluate things not on just what they are, but where they might lead us to. Each project is a stepping stone to other projects, each person a connection to a wider world. Life is full of colour, you just have to look for it. 
 
-*P.S. As I finish this, I have just met a hot 20yo at a bar, and gave her my copy of Thinking Fast and Slow (since I ironically lost my copy of Antifragile, and I promised my mate I'd lend him a book, but he'd already read it). I have no idea where that's gonna go but I'm excited see where it leads.*
-
 ## Appendix
 
 ### Examples of path dependency.
