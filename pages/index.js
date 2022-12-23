@@ -38,9 +38,16 @@ export default function Home() {
             </li>
           </ul>
         </p> */}
+        <p>
+          Welcome to my new blog. You can find my old one <a href="https://liamz.co/blog/">here</a>.
+        </p>
+        <p>
+          <a href="https://twitter.com/liamzebedee">Twitter</a>
+        </p>
 
 
-        {/* <h2>Life</h2> */}
+
+        <strong>Writing</strong>
         <p className={styles.description}>
           <Link href="/posts/how-i-found-my-new-house-thru-6-degrees">How I found my new house through 6 degrees of separation.</Link>
         </p>
