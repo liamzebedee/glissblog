@@ -37,7 +37,7 @@ function Post() {
             <article className={styles.article}>
                 <ReactMarkdown components={{
                     // open new tab <a href="" target="_blank">
-                    img: ({ node, ...props }) => <a href={props.src} target="_blank"><img {...props} style={{ maxWidth: '100%' }} /></a>
+                    img: ({ node, ...props }) => <a href={props.src} rel="noreferrer" target="_blank"><img {...props} style={{ maxWidth: '100%' }} /></a>
                 }}>
                     {fileContent.content}
                 </ReactMarkdown>
