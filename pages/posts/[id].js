@@ -1,5 +1,6 @@
 
 import Head from 'next/head';
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 import ReactMarkdown from 'react-markdown'
 import styles from '../../styles/Home.module.css'
@@ -36,11 +37,11 @@ function Post() {
             <a href="../">{"<< back to posts"}</a>
             <article className={styles.article}>
                 <ReactMarkdown 
-                    children={smartquotes.string(fileContent.content)}
                     components={{
                         // open new tab <a href="" target="_blank">
-                        img: ({ node, ...props }) => <a href={props.src} rel="noreferrer" target="_blank"><img {...props} style={{ maxWidth: '100%' }} /></a>
+                        img: ({ node, ...props }) => <a href={props.src} rel="noreferrer" target="_blank"><Image {...props} alt="" style={{ maxWidth: '100%' }} /></a>
                     }}>
+                    {smartquotes.string(fileContent.content)}
                 </ReactMarkdown>
             </article>
       </main>
