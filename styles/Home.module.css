@@ -59,7 +59,7 @@
 .article img {
   object-fit: contain;
   display: block;
-  width: 80%;
+  /* width: 80%; */
   /* border: 1px solid #ddd; */
   /* simple box shadow */
   box-shadow: 0 0 2px rgba(41, 41, 41, 0.3);
