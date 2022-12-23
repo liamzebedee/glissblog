@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url("https://fonts.googleapis.com/css?family=Fira+Code");
 @import url("https://fonts.googleapis.com/css?family=Hanken+Grotesk");
 @import url("https://fonts.googleapis.com/css?family=Yrsa");
 @import url("https://fonts.googleapis.com/css?family=Fredoka+One");
@@ -116,8 +116,7 @@ pre,
 code {
   font-family: 'Fira Code', monospace;
   font-weight: 400;
-  margin: 0;
-  padding: 0;
+
 }
 
 /* Special moving text. */

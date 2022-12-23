@@ -15,7 +15,32 @@ export default function Home() {
       <header className={styles.header}></header>
 
       <main className={styles.main}>
-        <h2>Posts</h2>
+
+        <h1>blog of liamz</h1>
+
+        {/* <h2>ZK</h2>
+        <p className={styles.description}>
+          <ul>
+            <li>
+              <Link href="/posts/anatomy-of-a-stark-proof">
+                Anatomy of a STARK proof
+              </Link>
+            </li>
+            <li>
+              <Link href="/posts/dumb-primer-on-recursive-zk-proofs">
+                A dumb primer on recursive ZK proofs
+              </Link>
+            </li>
+            <li>
+              <Link href="/posts/loot-fog-of-war-private-information-zk">
+                Loot Fog of War, private-information games, and ZK STARK's.
+              </Link>
+            </li>
+          </ul>
+        </p> */}
+
+
+        {/* <h2>Life</h2> */}
         <p className={styles.description}>
           <Link href="/posts/how-i-found-my-new-house-thru-6-degrees">How I found my new house through 6 degrees of separation.</Link>
         </p>
