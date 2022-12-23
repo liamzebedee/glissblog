@@ -54,10 +54,9 @@ You don’t know when the paths will connect up. But at the same time, you do kn
 
 It’s funny to [quote Steve Jobs](https://www.youtube.com/watch?v=UF8uR6Z6KLc) but he’s got a point. Whatever the way you look at it, you have to begin with trust. Trust that you can figure it out, trust your instinct that you know where things will lead to. It will make all the difference.
 
-We should evaluate things not on just what they are, but where they might lead us to. Each project as a stepping stone to other projects, each person a connection to a wider world. In so, realising that life is full of colour and opportunity — maybe we just haven’t found it yet.
+So maybe let's evaluate things not on just what they are, but where they might lead us to. Each project is a stepping stone to other projects, each person a connection to a wider world. Life is full of colour, you just have to look for it. 
 
-```
-```
+*P.S. As I finish this, I have just met a hot 20yo at a bar, and gave her my copy of Thinking Fast and Slow (since I ironically lost my copy of Antifragile, and I promised my mate I'd lend him a book, but he'd already read it). I have no idea where that's gonna go but I'm excited see where it leads.*
 
 ## Appendix
 
