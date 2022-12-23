@@ -1,16 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url("https://fonts.googleapis.com/css?family=Hanken+Grotesk");
+@import url("https://fonts.googleapis.com/css?family=Yrsa");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+@import url("https://fonts.googleapis.com/css?family=Rubik+80s+Fade");
+
+ 
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* background-color: rgb(244, 248, 251); */
+  color: #333;
+  font-size: 1.2rem;
+  /* padding-top: 1rem;
+  margin-left: 1rem; */
+}
+
+/* Animated background of gradient image */
+.background {
+  background: url('/public/86406FFE-CDC0-4ADC-AF93-B909A03102E1.png') no-repeat center center fixed;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+    /* opacity: 0; */
+  }
+  50% {
+    background-position: 100% 50%;
+    /* opacity: 1; */
+  }
+  100% {
+    background-position: 0% 50%;
+    /* opacity: 0; */
+  }
+}
+
+
+/* headings */
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik 80s Fade', sans-serif;
+  /* font-weight: 400; */
+}
+
+/* Adjust the margin if a heading is followed by another heading */
+h1 + h2 {
+  margin-top: -1rem;
+}
+
+h2 + h3 {
+  margin-top: -1rem;
+}
+
+h3 + h4 {
+  margin-top: -1rem;
+}
+
+h4 + h5 {
+  margin-top: -1rem;
+}
+
+/* Non-headings */
+p,
+ul,
+ol,
+li,
+blockquote,
+table,
+tr,
+td,
+th,
+form,
+input,
+textarea,
+button {
+  font-weight: 400;
+  font-size: 16px;
+  /* margin: 0;
+  padding: 0; */
+}
+
+pre,
+code {
+  font-family: 'Fira Code', monospace;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* Special moving text. */
+h1, a {
+  background-image: url('/86406FFE-CDC0-4ADC-AF93-B909A03102E1.jpg');
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent!important;
+  z-index: -1;
+  animation: gradient 60s ease-in-out infinite;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  background-image: url('https://nft.metavatar.app/mimages/metavatar-622.svg');
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  z-index: -1;
+  animation: gradient 30s ease-in-out infinite;
+  text-decoration: underline;
+
+  /* transition: all 180ms; */
 }
+
+a:hover {
+  /* semi transparent color */
+  /* color: rgba(255, 255, 255, 0.5); */
+  
+  color: black!important;
+}
+
+body {
+  font-size: calc(0.75rem, 0, + 1vmin);
+  max-zoom: 1;
+}
+
+/* h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+} */
+/* p {
+  font-size: 2vmin;
+} */
+
 
 * {
   box-sizing: border-box;
+}
+
+
+/* Shamelessly stolen from jmcph4.dev */
+a {
+  /* color: rgb(160, 61, 221);
+  text-decoration: none;
+  transition: all 60ms; */
+  /* font-family: serif; */
+}
+
+a:hover {
+  /* background-color: darkorange; */
+}
+
+a:before {
+  /* content: "["; */
+}
+
+a:after {
+  /* content: "]"; */
 }
