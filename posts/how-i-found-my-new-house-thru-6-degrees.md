@@ -56,6 +56,10 @@ It’s funny to [quote Steve Jobs](https://www.youtube.com/watch?v=UF8uR6Z6KLc) 
 
 We should evaluate things not on just what they are, but where they might lead us to. Each project as a stepping stone to other projects, each person a connection to a wider world. In so, realising that life is full of colour and opportunity — maybe we just haven’t found it yet.
 
+
+
+
+
 ## Appendix
 
 ### Examples of path dependency.
