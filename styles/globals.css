@@ -130,7 +130,7 @@ h1, a {
 }
 
 a {
-  background-image: url('https://nft.metavatar.app/mimages/metavatar-622.svg');
+  background-image: linear-gradient(blue, rgb(0, 89, 255));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
