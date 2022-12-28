@@ -6,19 +6,12 @@ import ReactMarkdown from 'react-markdown'
 import styles from '../../styles/Home.module.css'
 const smartquotes = require('smartquotes')
 
-function Post() {
-    // Get [id] param from router.
-    const router = useRouter()
-    const id = router.query.id
+// get server side props
+export async function getServerSideProps(context) {
+    // get [id] param from router
+    const id = context.params.id
 
-    // Only load if id is available.
-    if (!id) {
-        return <div>
-            
-        </div>
-    }
-
-    // Load post from file
+    // load post from file
     // ../posts/${id}.md
     const fileContent = require(`../../posts/${id}.md.json`)
     const title = fileContent.content.split('\n')[0].replace('# ', '')
@@ -26,6 +19,17 @@ function Post() {
     // get first 3 lines after title
     const description = fileContent.content.split('\n').slice(1, 7).join(' ')
 
+    return {
+        props: {
+            title,
+            description,
+            content: fileContent.content,
+        },
+    }
+}
+
+
+function Post({ title, description, content }) {
     return <div className={styles.container}>
       <Head>
         <title>{title} - blog of liamz</title>
@@ -55,7 +59,7 @@ function Post() {
                         // open new tab <a href="" target="_blank">
                         img: ({ node, ...props }) => <a href={props.src} rel="noreferrer" target="_blank"><img {...props} alt="" style={{ maxWidth: '100%' }} /></a>
                     }}>
-                    {smartquotes.string(fileContent.content)}
+                    {smartquotes.string(content)}
                 </ReactMarkdown>
             </article>
       </main>
