@@ -14,9 +14,7 @@ function Post() {
     // Only load if id is available.
     if (!id) {
         return <div>
-            <Head>
-                <title>123 - blog of liamz</title>
-            </Head>
+            
         </div>
     }
 
