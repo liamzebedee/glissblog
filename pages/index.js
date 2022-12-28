@@ -42,10 +42,10 @@ export default function Home() {
         <p>
           Welcome to my new blog. You can find my old one <a href="https://liamz.co/blog/">here</a>.
         </p>
-        <p><strong>Who am I</strong>? I'm an independent consultant and researcher, specialising in crypto, product design and the forefront of new technology (zero knowledge proofs, blockchains, and a lil bit of generative AI). <a href="/consulting">See my work</a>.</p>
+        <p><strong>Who am I</strong>? {`I'm`} an independent consultant and researcher, specialising in crypto, product design and the forefront of new technology (zero knowledge proofs, blockchains, and a lil bit of generative AI). <Link href="/consulting">See my work</Link>.</p>
         <p><strong>Currently:</strong> consulting, building out ideas (Dappnet, Take), connecting people.</p>
         <p>
-          <a href="/consulting">Consulting</a> &middot; <a href="https://twitter.com/liamzebedee">Twitter</a> &middot; <a href="https://github.com/liamzebedee">Github</a>
+          <Link href="/consulting">Consulting</Link> &middot; <a href="https://twitter.com/liamzebedee">Twitter</a> &middot; <a href="https://github.com/liamzebedee">Github</a>
         </p>
 
         <strong>Blogging.</strong>
@@ -99,7 +99,7 @@ export default function Home() {
           `}
         </Md>
 
-        <strong>ZK STARK's, SNARK's and cryptography.</strong>
+        <strong>{`ZK STARK's, SNARK's and cryptography`}.</strong>
         <Md>
           {`
 I contributed to realising an [open-source ZK-STARK prover for Cairo](https://github.com/maxgillett/giza/pull/1) in April 2022. Probably one of my proudest achievements.

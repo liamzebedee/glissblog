@@ -21,7 +21,7 @@ export default function Home() {
 
                 <p><strong>Liam Zebedee</strong> &middot; founder/consultant</p>
 
-                <p><strong>Who am I</strong>? I'm an independent consultant and researcher, specialising in crypto, product design and the forefront of new technology (zero knowledge proofs, blockchains, generative AI).</p>
+                <p><strong>Who am I</strong>? {`I'm`} an independent consultant and researcher, specialising in crypto, product design and the forefront of new technology (zero knowledge proofs, blockchains, generative AI).</p>
 
                 <Md>
                     {`
