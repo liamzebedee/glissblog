@@ -35,8 +35,14 @@ function Post() {
         <link rel="icon" href="/favicon.ico" />
 
         {/* Open graph */}
+        <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@liamzebedee" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
       </Head>
 
     <header className={styles.header}></header>
