@@ -26,7 +26,7 @@ export default function Home() {
           <meta name="twitter:description" content={description} />
           <meta name="twitter:image" content="https://glissblog.vercel.app/86406FFE-CDC0-4ADC-AF93-B909A03102E1.jpg" />
         </Head>
-      </Head>
+
 
       <header className={styles.header}></header>
 
