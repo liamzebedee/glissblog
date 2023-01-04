@@ -13,7 +13,7 @@ export async function getServerSideProps(context) {
 
     // load post from file
     // ../posts/${id}.md
-    const fileContent = require(`../../posts/${id}.md.json`)
+    const fileContent = require(`./$data`).default[id]
     const title = fileContent.content.split('\n')[0].replace('# ', '')
 
     // get first 3 lines after title
